@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Imagens/david-monje-R1ADjkkn0Lk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+#menu{
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+    background-color:brown ;
+}
+#menu li{
+    list-style: none;
+}
+#menu a{
+    text-decoration: none;
+    padding: 5px 6px;
+    color: white;
+    transition: all .5s;
+}
+#menu a:hover{
+    background: white;
+    color: brown;
+    border-radius: 5px;
+}
+#inform{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    padding: 150px 30px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.315);
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+}
+#inform #agenda{
+    padding: 10px 30px;
+    margin-top: 25px;
+    border: none;
+    background: brown;
+    color: white;
+    border-radius: 5px;
+    transition: all .5s;
+}
+#inform #agenda:hover{
+    padding: 10px 50px;
+    box-shadow: 0 0 20px brown, 0 0 40px brown, 0 0 60px brown;
+}
+footer{
+    color: white;
+    margin-top: 100vh;
+}
