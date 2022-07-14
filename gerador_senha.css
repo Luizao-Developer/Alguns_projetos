@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#gerador{
+    background: black;
+    padding:100px 110px;
+    color: white;
+    margin: 50px auto;
+    border-radius: 20px;
+    
+}
+#gerador #cabeçalho{
+    padding: 50px 50px;
+}
+#gerador #corpo{
+    padding: 10px 50px;
+}
+#gerador #gerar_senha{
+    width: 300px;
+    height: 40px;
+}
+#gerador #gerar_senha{
+    color: white;
+    font-size: large;
+    background: rebeccapurple;
+    border: none;
+}
+#gerador #gerar_senha:hover{
+    background: rgb(51, 22, 80);
+}
+#gerador #senha{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+
