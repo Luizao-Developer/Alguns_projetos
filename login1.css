@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-image:url(Imagens/daniela-izotenko-hOhlYhAiizc-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#titulo{
+    font-size: 30px;
+}
+#login{
+    margin: 30px auto;
+    text-align: center;
+    padding: 5em;
+    background: rgba(0, 0, 0, 0.377);
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(183, 255, 40);
+}
+#imgUsuario{
+    text-align: center;
+}
+#login #imgUsuario,img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#validar{
+    font-size: 20px;
+}
+#validar input{
+    width: 250px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: solid yellow;
+    color: white;
+    outline: none;
+    transition: all .5s;
+}
+#validar input:hover{
+    border-bottom: solid yellowgreen;
+}
+#adicionais{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#adicionais button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background: yellow;
+    transition: all .5s;
+    cursor: pointer;
+}
+#adicionais button:hover{
+    box-shadow: 0 0 50px yellow, 0 0 100px yellow, 0 0 150px yellow;
+}
+#frases a{
+    text-decoration: none;
+    color: yellowgreen;
+}
