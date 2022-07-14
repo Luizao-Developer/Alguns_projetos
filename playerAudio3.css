@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#imagemFundo{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    filter: blur(5px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#player{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    background: chartreuse;
+    height: 500px;
+    width: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: sans-serif;
+    background: rgba(255, 255, 255, 0.616);
+}
+#imagemMusica{
+    padding: 50px 50px;
+
+}
+#imagemMusica img{
+    width:150% ;
+    height: 250px;
+    margin-left: -50px;
+    margin-top: -50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#player #titulo{
+    margin-top: -40px;
+}
+#player #controles{
+    margin-top: 10px;
+}
+#player button{
+    padding: 13px 13px;
+}
+#tocar{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    transition: all .5s;
+}
+#anterior,#proximo{
+    border-radius: 50%;
+    border: none;
+    background:none;
+    transition: all .5s;
+}
+#tocar:hover{
+    background: aqua;
+}
+#anterior:hover,#proximo:hover{
+    background: orange;
+}
+#titulo #autor{
+    color: orange;
+}
+#barra-progresso{
+    padding: 40px ;
+    text-align: center;
+    display: flex;
+}
+#barra-progresso #barra{
+    margin: auto;
+    width: 200px;
+    height: 2px;
+    padding: 0 200px;
+    background: black;
+    margin-left: -10px;
+}
+#barra-progresso #indic{
+
+    border-radius: 50%;
+    background: orangered;
+    padding: 8px;
+    position: absolute;
+    top: 89%;
+    left: 6%;
+}
